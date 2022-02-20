@@ -1,0 +1,94 @@
+<doctype html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>
+            Digital Marketing
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+    </head>
+    
+    <body>
+        <div class="topnav">
+            <a href="#menu">
+                <div class="bar-1"></div>
+                <div class="bar-2"></div>
+                <div class="bar-3"></div>
+            </a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#blogs">Blogs</a>
+            <a href="#contact">Contact Us</a>
+            <div class="search">
+                <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+                <button id="#search">Search</button>
+            </div>
+            <script>
+                    function myFunction() {
+                      // Declare variables
+                      var input, filter, ul, li, a, i;
+                      input = document.getElementById("mySearch");
+                      filter = input.value.toUpperCase();
+                      ul = document.getElementById("myMenu");
+                      li = ul.getElementsByTagName("li");
+                    
+                      // Loop through all list items, and hide those who don't match the search query
+                      for (i = 0; i < li.length; i++) {
+                        a = li[i].getElementsByTagName("a")[0];
+                        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                          li[i].style.display = "";
+                        } else {
+                          li[i].style.display = "none";
+                        }
+                      }
+                    }
+            </script>
+        </div>
+        <div class="home-container">
+            <div class="animation-container">
+                    <!-- <video width="320" height="240" controls>
+                            <source src="Digital Marketing.mp4" type="video/mp4">
+                            <!-- <source src="movie.ogg" type="video/ogg"> -->
+                            <!-- Your browser does not support the video tag. -->
+                    <!-- </video> -->
+                    <img src="Digital Marketing.gif" width="800" height="700">
+                    
+            </div>
+            <div class="content">
+                <h1>
+                        We aid brands achieve their business dreams.
+                </h1>   
+                <ul>We create meaningful experience with web designs and help organisations reach their full potential.</ul>
+                <ul>We help brands engage their customers more meaningfully by integrating multiple platforms such as web and mobile to create a truly 360° experience.</ul>
+                <ul>We bring visually appealing products with best functionalities through responsive web pages and user experience designs.</ul>
+                <ul>We help you interact with your customers effectively in both online and offlines spaces.</ul>
+                <div class="flex-box">
+                    
+                    <button class="button button1">Get In Touch</button>
+                    <button class="button button2">Our work</button>
+                </div>
+            </div>
+            
+        </div>
+            <div class="sevices">
+                    <div class="row">
+                        <div class="col-6 col-s-9 menu">
+                            <h2>Our Services</h2>
+                            <ul><li>Strategy</li>
+                            <li>Marketing</li>
+                            <li>Design</li>
+                            <li>Data & Analysis</li></ul>
+                        </div>
+                    </div>  
+            </div>
+        
+        <div class="page-footer">
+            <footer>
+                <h3>Skybrainz</h3>
+                <p>Contact Us</p>
+                <p>Email: skybrainz@gmail.com</p>
+            </footer>
+        </div>
+    </body>
+</html>

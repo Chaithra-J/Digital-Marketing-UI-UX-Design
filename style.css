@@ -1,0 +1,145 @@
+body{
+    background-color: powderblue;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.topnav{
+    background-color: grey;
+    color: white;
+    padding: 1%;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.bar-1, .bar-2, .bar-3{
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+}
+
+.topnav .search #mySearch {
+    float: right;
+    /* width: 30%; */
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+  }
+
+.topnav .search button{
+    float: none;
+    font-size: 15px;
+    padding: 12px 14px;
+    background-color: lightblue;
+}
+
+.topnav .search{
+    float: right;
+}
+
+.animation-container{
+    float: left;
+    padding-top: 3%;
+}
+
+.content{
+    padding-top: 6%;
+}
+.content h1{
+    float: right;
+}
+
+.content ul{
+    float: right;
+    width: 40%;
+}
+
+.flex-box {
+    float: right;
+    display:flex;
+    justify-content:space-between;
+    outline: 2px dashed blue;
+  }
+
+.button1 .button2{
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.button1:hover {
+    background-color: #555555;
+    color: white;
+}
+  
+.button2:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.button{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.services{
+    
+    display: inline-block;
+    column-count: 4;
+    column-gap: 20px;
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: lightslategray;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .row::after {
+    
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+
+.page-footer{
+    margin-top: 1%;
+    background-color: #555555;
+    padding: 1%;
+}
+
+.menu{
+    padding-top: 30%;
+    float: left;
+}
